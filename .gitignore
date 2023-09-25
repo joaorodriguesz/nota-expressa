@@ -1,0 +1,41 @@
+# System configuration files
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System-specific dependencies
+ios/Pods/
+ios/Podfile.lock
+ios/Podfile.backup
+android/app/build/
+android/app/debug/
+android/app/release/
+android/build/
+android/local.properties
+
+# Automatically generated files
+*.log
+*.iml
+.idea/
+.vscode/
+coverage/
+__tests__/coverage/
+
+# Local environment files (customized for each developer)
+.env
+.env.local
+.env.*.local
+
+# Build files
+*.apk
+*.aab
+*.keystore
+
+# TypeScript dependencies (if you're using TypeScript)
+tsconfig.tsbuildinfo
+
+# Gradle dependencies (if you're using Kotlin or Java on Android)
+.gradle/
+*.gradle
+build/
