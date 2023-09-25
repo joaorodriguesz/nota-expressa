@@ -1,41 +1,35 @@
-# System configuration files
-.DS_Store
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
 node_modules/
-npm-debug.log
-yarn-error.log
 
-# System-specific dependencies
-ios/Pods/
-ios/Podfile.lock
-ios/Podfile.backup
-android/app/build/
-android/app/debug/
-android/app/release/
-android/build/
-android/local.properties
+# Expo
+.expo/
+dist/
+web-build/
 
-# Automatically generated files
-*.log
-*.iml
-.idea/
-.vscode/
-coverage/
-__tests__/coverage/
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# Local environment files (customized for each developer)
-.env
-.env.local
-.env.*.local
+# Metro
+.metro-health-check*
 
-# Build files
-*.apk
-*.aab
-*.keystore
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
-# TypeScript dependencies (if you're using TypeScript)
-tsconfig.tsbuildinfo
+# macOS
+.DS_Store
+*.pem
 
-# Gradle dependencies (if you're using Kotlin or Java on Android)
-.gradle/
-*.gradle
-build/
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
